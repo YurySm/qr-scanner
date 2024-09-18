@@ -1,0 +1,24 @@
+{
+  "name": "qr-scanner",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "postdev": "browser-sync start --config bs-config.js"
+  },
+  "dependencies": {
+    "@zxing/library": "^0.21.3",
+    "browser-sync": "^3.0.2",
+    "next": "14.2.11",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5"
+  }
+}
